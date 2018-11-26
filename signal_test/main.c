@@ -20,7 +20,7 @@ int main(int argc, const char * argv[]) {
     
     end = clock();                                          //计时-结束
     cost = (double)(end - begin)/CLOCKS_PER_SEC*1000;
-    printf("\nconstant CLOCKS_PER_SEC is: %ld, time cost is: %lf msecs\n", CLOCKS_PER_SEC/1000, cost);
+    //printf("\nconstant CLOCKS_PER_SEC is: %ld, time cost is: %lf msecs\n", CLOCKS_PER_SEC/1000, cost);
     
     return 0;
 }
