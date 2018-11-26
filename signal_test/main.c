@@ -1,15 +1,11 @@
-//
-//  main.c
-//  signal_test
-//
-//  Created by lxp on 2018/11/26.
-//  Copyright © 2018年 lxp. All rights reserved.
-//
-
+/*------------------------测试车辆参数------------------------*/
 #include <stdio.h>
 
+#define calc_t   500                                  //计算过去0.5s的值
+
+float v, dis_rel, pres, v_d[calc_t], lca_d[calc_t], pres_d [calc_t], acce_d[calc_t];
+
 int main(int argc, const char * argv[]) {
-    // insert code here...
     printf("Hello, World!\n");
     return 0;
 }
